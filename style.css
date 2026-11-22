@@ -1,0 +1,14 @@
+body { font: 17px/1.6 -apple-system, system-ui, sans-serif; color: #2A1E3D; background: #EAF4EF; margin: 0; padding: 32px 16px; }
+main { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 22px; padding: 28px; }
+h1 { font-size: 28px; margin-top: 0; }
+h2 { font-size: 19px; margin-top: 28px; }
+p, li { color: #3d3350; }
+a { color: #5B3FA6; }
+.icon { width: 96px; height: 96px; border-radius: 22px; }
+nav { margin-top: 24px; display: flex; gap: 16px; flex-wrap: wrap; }
+@media (prefers-color-scheme: dark) {
+  body { background: #15111E; color: #F1ECF7; }
+  main { background: #221B30; }
+  p, li { color: #B9AFCD; }
+  a { color: #A68BEA; }
+}
